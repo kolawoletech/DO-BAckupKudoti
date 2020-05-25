@@ -1,0 +1,1 @@
+<p><?php _e('You don\'t have permission to view this page. If this is a mistake please contact the site administrator.', VG_Admin_To_Frontend::$textname); ?></p>

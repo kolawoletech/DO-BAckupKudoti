@@ -1,0 +1,74 @@
+2020-04-22T15:34:42+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/dystell/wp-content/themes/storefront-child/functions.php:42
+Stack trace:
+#0 /var/www/dystell/wp-includes/class-wp-hook.php(287): remove_sf_actions('')
+#1 /var/www/dystell/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dystell/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/dystell/wp-settings.php(540): do_action('init')
+#4 /var/www/dystell/wp-config.php(90): require_once('/var/www/dystel...')
+#5 /var/www/dystell/wp-load.php(37): require_once('/var/www/dystel...')
+#6 /var/www/dystell/wp-cron.php(44): require_once('/var/www/dystel...')
+#7 {main}
+  thrown in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 42
+
+2020-04-22T15:34:42+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/dystell/wp-content/themes/storefront-child/functions.php:42
+Stack trace:
+#0 /var/www/dystell/wp-includes/class-wp-hook.php(287): remove_sf_actions('')
+#1 /var/www/dystell/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dystell/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/dystell/wp-settings.php(540): do_action('init')
+#4 /var/www/dystell/wp-config.php(90): require_once('/var/www/dystel...')
+#5 /var/www/dystell/wp-load.php(37): require_once('/var/www/dystel...')
+#6 /var/www/dystell/wp-admin/admin-ajax.php(22): require_once('/var/www/dystel...')
+#7 {main}
+  thrown in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 42
+
+2020-04-22T15:34:42+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/dystell/wp-content/themes/storefront-child/functions.php:42
+Stack trace:
+#0 /var/www/dystell/wp-includes/class-wp-hook.php(287): remove_sf_actions('')
+#1 /var/www/dystell/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dystell/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/dystell/wp-settings.php(540): do_action('init')
+#4 /var/www/dystell/wp-config.php(90): require_once('/var/www/dystel...')
+#5 /var/www/dystell/wp-load.php(37): require_once('/var/www/dystel...')
+#6 /var/www/dystell/wp-admin/admin-ajax.php(22): require_once('/var/www/dystel...')
+#7 {main}
+  thrown in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 42
+
+2020-04-22T15:34:55+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/dystell/wp-content/themes/storefront-child/functions.php:42
+Stack trace:
+#0 /var/www/dystell/wp-includes/class-wp-hook.php(287): remove_sf_actions('')
+#1 /var/www/dystell/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dystell/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/dystell/wp-settings.php(540): do_action('init')
+#4 /var/www/dystell/wp-config.php(90): require_once('/var/www/dystel...')
+#5 /var/www/dystell/wp-load.php(37): require_once('/var/www/dystel...')
+#6 /var/www/dystell/wp-blog-header.php(13): require_once('/var/www/dystel...')
+#7 /var/www/dystell/index.php(17): require('/var/www/dystel...')
+#8 {main}
+  thrown in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 42
+
+2020-04-22T15:34:56+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/dystell/wp-content/themes/storefront-child/functions.php:42
+Stack trace:
+#0 /var/www/dystell/wp-includes/class-wp-hook.php(287): remove_sf_actions('')
+#1 /var/www/dystell/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dystell/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/dystell/wp-settings.php(540): do_action('init')
+#4 /var/www/dystell/wp-config.php(90): require_once('/var/www/dystel...')
+#5 /var/www/dystell/wp-load.php(37): require_once('/var/www/dystel...')
+#6 /var/www/dystell/wp-blog-header.php(13): require_once('/var/www/dystel...')
+#7 /var/www/dystell/index.php(17): require('/var/www/dystel...')
+#8 {main}
+  thrown in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 42
+
+2020-04-22T15:34:58+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/dystell/wp-content/themes/storefront-child/functions.php:42
+Stack trace:
+#0 /var/www/dystell/wp-includes/class-wp-hook.php(287): remove_sf_actions('')
+#1 /var/www/dystell/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/dystell/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/dystell/wp-settings.php(540): do_action('init')
+#4 /var/www/dystell/wp-config.php(90): require_once('/var/www/dystel...')
+#5 /var/www/dystell/wp-load.php(37): require_once('/var/www/dystel...')
+#6 /var/www/dystell/wp-admin/admin-ajax.php(22): require_once('/var/www/dystel...')
+#7 {main}
+  thrown in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 42
+

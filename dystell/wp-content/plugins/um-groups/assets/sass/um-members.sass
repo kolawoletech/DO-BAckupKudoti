@@ -1,0 +1,828 @@
+@import "selectors"
+@import "mixins"
+@import "colors"
+
++keyframes(um-ajax-spinning)
+  0%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+  100%
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+
+
+.um-new-dropdown
+  font-size: 16px
+  margin: 0
+  position: absolute
+  height: auto
+  background: #fff
+  z-index: 10
+  display: none
+  border: 1px solid $border
+  box-shadow: 0 7px 14px 0 $shadow1, 0 3px 6px 0 $shadow2
+  -webkit-box-shadow: 0 7px 14px 0 $shadow1, 0 3px 6px 0 $shadow2
+  +border-box
+  +border-radius(5px, 5px, 5px, 5px)
+  ul
+    margin: 0
+    padding: 0
+    li
+      list-style-type: none
+      padding: 0
+      margin: 0
+      a
+        display: block
+        padding: 8px 12px
+        line-height: 1
+
+.um-new-dropdown-arr
+  position: absolute
+  font-size: 24px
+  width: 24px
+  height: 24px
+  overflow: hidden
+  z-index: 15
+  color: #eee
+  *
+    display: block
+    width: 24px
+    height: 24px
+    vertical-align: bottom
+    overflow: hidden
+    line-height: 24px
+
+
+body
+  #content
+    .#{$prefix}directory
+      a
+        text-decoration: none
+        border-bottom: none
+        box-shadow: none
+        &:hover, &:focus
+          text-decoration: none
+          border-bottom: none
+          box-shadow: none
+
+.um-groups-single
+
+  .um-groups-users-wrapper
+    +flex( column, flex-start, stretch, nowrap )
+    position: relative
+
+    .um-members-overlay
+      display: none
+      position: absolute
+      width: 100%
+      top: 0
+      bottom: 0
+      background: rgba(255, 255, 255, 0.8)
+      z-index: 2
+      .um-ajax-loading
+        +transition(.1s,opacity)
+        color: #c6c6c6 !important
+        -webkit-animation: um-ajax-spinning 1.1s infinite linear
+        animation: um-ajax-spinning 1.1s infinite linear
+        border-top: .2em solid rgba(198, 198, 198, 0.2)
+        border-right: .2em solid rgba(198, 198, 198, 0.2)
+        border-bottom: .2em solid rgba(198, 198, 198, 0.2)
+        border-left: .2em solid #c6c6c6
+        font-size: 1.75em
+        position: absolute
+        left: calc(50% - 1.75em)
+        top: calc(50% - 1.75em)
+        filter: alpha(opacity=0)
+        -ms-transform: translateZ(0)
+        transform: translateZ(0)
+        border-radius: 50%
+        display: block
+        width: 2.5em
+        height: 2.5em
+        margin: 0
+        outline: 0
+        padding: 0
+        vertical-align: baseline
+
+
+    .um-groups-members-list
+      +flex( row, flex-start, stretch, wrap )
+      height: 300px
+      .um-groups-user-wrap
+        box-sizing: border-box
+        float: left
+        padding-left: 0.5em
+        padding-right: 0.5em
+        width: 50%
+        .user-details
+          padding: 0
+          margin-bottom: 1em
+          min-height: 60px
+          ul
+            list-style: none
+            margin-bottom: 0
+          .um-group-buttons
+            float: right
+            .um-member-actions
+              position: relative
+              .um-new-dropdown
+                font-size: 14px
+                top: 24px
+                width: 200px
+                right: -12px
+                text-align: right
+        .um-group-texts
+          display: table-cell
+          ul
+            list-style: none
+            margin: 0
+            padding: 0
+    &.um-loaded
+      .um-groups-members-list
+        height: auto
+
+
+  .um-groups-requests-wrapper
+    +flex( column, flex-start, stretch, nowrap )
+    position: relative
+
+    .um-members-overlay
+      display: none
+      position: absolute
+      width: 100%
+      top: 0
+      bottom: 0
+      background: rgba(255, 255, 255, 0.8)
+      z-index: 2
+      .um-ajax-loading
+        +transition(.1s,opacity)
+        color: #c6c6c6 !important
+        -webkit-animation: um-ajax-spinning 1.1s infinite linear
+        animation: um-ajax-spinning 1.1s infinite linear
+        border-top: .2em solid rgba(198, 198, 198, 0.2)
+        border-right: .2em solid rgba(198, 198, 198, 0.2)
+        border-bottom: .2em solid rgba(198, 198, 198, 0.2)
+        border-left: .2em solid #c6c6c6
+        font-size: 1.75em
+        position: absolute
+        left: calc(50% - 1.75em)
+        top: calc(50% - 1.75em)
+        filter: alpha(opacity=0)
+        -ms-transform: translateZ(0)
+        transform: translateZ(0)
+        border-radius: 50%
+        display: block
+        width: 2.5em
+        height: 2.5em
+        margin: 0
+        outline: 0
+        padding: 0
+        vertical-align: baseline
+
+
+    .um-groups-members-list
+      +flex( row, flex-start, stretch, wrap )
+      height: 300px
+      .um-groups-user-wrap
+        box-sizing: border-box
+        float: left
+        padding-left: 0.5em
+        padding-right: 0.5em
+        width: 50%
+        .user-details
+          padding: 0
+          margin-bottom: 1em
+          min-height: 60px
+          ul
+            list-style: none
+            margin-bottom: 0
+          .um-group-buttons
+            float: right
+            .um-member-actions
+              position: relative
+              .um-new-dropdown
+                font-size: 14px
+                top: 24px
+                width: 150px
+                right: -12px
+                text-align: right
+        .um-group-texts
+          display: table-cell
+          ul
+            list-style: none
+            margin: 0
+            padding: 0
+    &.um-loaded
+      .um-groups-members-list
+        height: auto
+
+
+  .um-groups-blocked-wrapper
+    +flex( column, flex-start, stretch, nowrap )
+    position: relative
+
+    .um-members-overlay
+      display: none
+      position: absolute
+      width: 100%
+      top: 0
+      bottom: 0
+      background: rgba(255, 255, 255, 0.8)
+      z-index: 2
+      .um-ajax-loading
+        +transition(.1s,opacity)
+        color: #c6c6c6 !important
+        -webkit-animation: um-ajax-spinning 1.1s infinite linear
+        animation: um-ajax-spinning 1.1s infinite linear
+        border-top: .2em solid rgba(198, 198, 198, 0.2)
+        border-right: .2em solid rgba(198, 198, 198, 0.2)
+        border-bottom: .2em solid rgba(198, 198, 198, 0.2)
+        border-left: .2em solid #c6c6c6
+        font-size: 1.75em
+        position: absolute
+        left: calc(50% - 1.75em)
+        top: calc(50% - 1.75em)
+        filter: alpha(opacity=0)
+        -ms-transform: translateZ(0)
+        transform: translateZ(0)
+        border-radius: 50%
+        display: block
+        width: 2.5em
+        height: 2.5em
+        margin: 0
+        outline: 0
+        padding: 0
+        vertical-align: baseline
+
+
+    .um-groups-members-list
+      +flex( row, flex-start, stretch, wrap )
+      height: 300px
+      .um-groups-user-wrap
+        box-sizing: border-box
+        float: left
+        padding-left: 0.5em
+        padding-right: 0.5em
+        width: 50%
+        .user-details
+          padding: 0
+          margin-bottom: 1em
+          min-height: 60px
+          ul
+            list-style: none
+            margin-bottom: 0
+          .um-group-buttons
+            float: right
+            .um-member-actions
+              position: relative
+              .um-new-dropdown
+                font-size: 14px
+                top: 24px
+                width: 200px
+                right: -12px
+                text-align: right
+        .um-group-texts
+          display: table-cell
+          ul
+            list-style: none
+            margin: 0
+            padding: 0
+    &.um-loaded
+      .um-groups-members-list
+        height: auto
+
+
+  .um-groups-invites-users-wrapper
+    +flex( column, flex-start, stretch, nowrap )
+    position: relative
+
+    a
+      text-decoration: none
+      border-bottom: none
+      box-shadow: none
+      &:hover, &:focus
+        text-decoration: none
+        border-bottom: none
+        box-shadow: none
+
+
+    .select2-container--disabled
+      opacity: 0.6
+
+    .um-members-overlay
+      display: none
+      position: absolute
+      width: 100%
+      top: 0
+      bottom: 0
+      background: rgba(255, 255, 255, 0.8)
+      z-index: 2
+      .um-ajax-loading
+        +transition(.1s,opacity)
+        color: #c6c6c6 !important
+        -webkit-animation: um-ajax-spinning 1.1s infinite linear
+        animation: um-ajax-spinning 1.1s infinite linear
+        border-top: .2em solid rgba(198, 198, 198, 0.2)
+        border-right: .2em solid rgba(198, 198, 198, 0.2)
+        border-bottom: .2em solid rgba(198, 198, 198, 0.2)
+        border-left: .2em solid #c6c6c6
+        font-size: 1.75em
+        position: absolute
+        left: calc(50% - 1.75em)
+        top: calc(50% - 1.75em)
+        filter: alpha(opacity=0)
+        -ms-transform: translateZ(0)
+        transform: translateZ(0)
+        border-radius: 50%
+        display: block
+        width: 2.5em
+        height: 2.5em
+        margin: 0
+        outline: 0
+        padding: 0
+        vertical-align: baseline
+
+    .um-member-directory-header
+      +flex( column, flex-start, stretch, nowrap )
+      width: 100%
+      .um-member-directory-header-row
+        +flex( row, flex-start, baseline, nowrap )
+        margin: 0 0 10px 0
+        &.um-header-row-invisible
+          margin: 0
+        &.um-member-directory-search-row
+          justify-content: flex-end
+        .um-member-directory-search-line
+          +flex( row, flex-start, baseline, nowrap )
+          width: 60%
+          label
+            flex: 1
+            margin: 0 10px 0 0
+            min-width: 90px
+            max-width: 85%
+            span
+              display: none
+              margin: 0 5px 0 0
+            .um-search-line
+              -webkit-appearance: textfield
+              width: 100%
+          .um-do-search
+            min-width: 15%
+        .um-member-directory-nav-line
+          +flex( row, space-between, center, nowrap )
+          width: 100%
+          .um-member-directory-view-type
+            font-size: 30px
+            line-height: 30px
+            margin: 0 10px 0 0
+            width: 30px
+            .um-member-directory-view-type-a
+              color: $border
+              display: none
+            &.um-disabled
+              cursor: default
+              a
+                cursor: default
+            &:not( .um-disabled )
+              .um-member-directory-view-type-a
+                &:hover
+                  color: $hover
+                &:focus
+                  color: $border
+          .um-member-directory-sorting
+            +flex( row, flex-start, baseline, nowrap )
+            flex: 5
+            .um-member-directory-sorting-a
+              +flex( row, flex-start, baseline, nowrap )
+              position: relative
+              cursor: pointer
+              a
+                margin: 0 5px 0 0
+              i
+                &.um-faicon-caret-down
+                  display: inline
+                &.um-faicon-caret-up
+                  display: none
+              &.um-member-directory-sorting-visible
+                i
+                  &.um-faicon-caret-down
+                    display: none
+                  &.um-faicon-caret-up
+                    display: inline
+              .um-new-dropdown
+                top : 24px
+                width: 200px
+                left: -12px
+                li
+                  a[data-selected="1"]
+                    display: none
+          .um-member-directory-filters
+            +flex( row, flex-end, baseline, nowrap )
+            flex: 2
+            text-align: right
+            .um-member-directory-filters-a
+              +flex( row, flex-start, baseline, nowrap )
+              cursor: pointer
+              a
+                margin: 0 5px 0 0
+              i
+                &.um-faicon-caret-down
+                  display: inline
+                &.um-faicon-caret-up
+                  display: none
+              &.um-member-directory-filters-visible
+                i
+                  &.um-faicon-caret-down
+                    display: none
+                  &.um-faicon-caret-up
+                    display: inline
+
+        .um-search
+          margin: 0
+          width: 100%
+          display: grid
+
+          grid-template-rows: auto 1fr
+          grid-template-columns: repeat(3, 1fr)
+          grid-gap: 10px
+          grid-auto-rows: minmax(max-content, auto)
+          -ms-grid-template-rows: auto 1fr
+          -ms-grid-template-columns: repeat(3, 1fr)
+          -ms-grid-gap: 10px
+          -ms-grid-auto-rows: minmax(max-content, auto)
+          align-items: center
+          .um-search-filter
+            +flex( row, flex-start, baseline, nowrap )
+            width: 100%
+
+            .select2-container
+              float: left
+              width: 100% !important
+
+            .um-s1
+              width: 100%
+            &.um-slider-filter-type
+              flex-direction: column
+              align-items: stretch
+              .um-slider
+                width: calc( 100% - 16px )
+                .ui-slider-range.ui-widget-header
+                  background: #44b0ec
+                  border: 1px solid #44b0ec !important
+                  margin-top: -1px
+
+                &.ui-slider.ui-slider-horizontal
+                  border: 1px solid #ddd !important
+                  box-sizing: border-box
+                  margin: 4px 8px 0 8px
+
+              .um-slider-range
+                +flex( row, flex-start, baseline, nowrap )
+                margin: 6px 0 0 8px
+                font-size: 0.8em
+            &.um-datepicker-filter-type,
+            &.um-timepicker-filter-type
+              +flex( row, flex-start, baseline, nowrap )
+              input
+                width: calc( 50% - 5px )
+                margin: 0 5px 0 0
+                +border-box
+                //float: left
+                &:nth-child(even)
+                  margin: 0 0 0 5px
+          &[style*="overflow: hidden;"]
+            .um-search-filter
+              pointer-events: none
+          &.um-search-invisible
+            display: none
+
+        .um-filtered-line
+          +flex( row, flex-start, baseline, wrap )
+          //margin: 5px 0 0 0
+          margin: 0
+          padding: 0
+          box-sizing: border-box
+          border: none
+          .um-members-filter-tag
+            +flex( row, flex-start, center, nowrap )
+            margin: 0 10px 5px 0
+            padding: 0 10px
+            border-radius: 3px
+            cursor: default
+            background: #f1f1f1
+            font-size: 13px
+            &:first-child
+              margin-left: 0
+            .um-members-filter-remove
+              float: right
+              display: inline-block
+              margin-left: 10px
+              cursor: pointer
+              font-weight: bold
+              font-size: 20px
+              &:hover
+                color: #a00
+
+          .um-clear-filters
+            display: none
+            a
+              padding: 3px 10px
+              margin: 0 10px
+
+
+    .um-groups-members-list
+      +flex( row, flex-start, stretch, wrap )
+      height: 300px
+      .um-groups-user-wrap
+        box-sizing: border-box
+        float: left
+        padding-left: 0.5em
+        padding-right: 0.5em
+        width: 50%
+        .user-details
+          padding: 0
+          margin-bottom: 1em
+          min-height: 60px
+          ul
+            list-style: none
+            margin-bottom: 0
+          .um-group-buttons
+            float: right
+            .um-member-actions
+              position: relative
+              .um-new-dropdown
+                font-size: 14px
+                top: 24px
+                width: 200px
+                right: -12px
+                text-align: right
+        .um-group-texts
+          display: table-cell
+          ul
+            list-style: none
+            margin: 0
+            padding: 0
+    &.um-loaded
+      .um-groups-members-list
+        height: auto
+
+
+  .um-members-pagination-box
+    width: 100%
+    float: left
+    margin: 0 0 10px 0
+    padding: 0
+    .um-members-pagi
+      +flex( row, center, baseline, nowrap )
+      width: 100%
+      margin: 0
+      padding: 0
+      font-size: 15px
+      .pagi
+        cursor: pointer
+        display: inline-block
+        width: auto
+        height: 34px
+        line-height: 34px
+        transition: all .2s linear
+        padding: 0 14px
+        color: #666 !important
+        font-weight: normal
+        &.pagi-arrow
+          line-height: 38px
+          i:before
+            font-size: 20px
+            vertical-align: middle !important
+            height: 34px
+            line-height: 34px
+            top: -2px
+            position: relative
+        &.current
+          cursor: default
+          color: #fff !important
+          &:hover
+            color: #fff !important
+        &.disabled
+          cursor: default
+          opacity: .4
+        &.none
+          color: #aaa !important
+
+    .um-members-pagidrop
+      width: 100%
+      float: left
+      margin: 0
+      text-align: center
+      padding: 5px 0
+      font-size: 15px
+
+
+    &.um-loaded
+      .um-members-wrapper
+        height: auto
+
+  &.uimob340
+    .um-groups-users-wrapper
+      .um-groups-members-list
+        .um-groups-user-wrap
+          padding: 0
+          width: 100%
+
+    .um-groups-requests-wrapper
+      .um-groups-members-list
+        .um-groups-user-wrap
+          padding: 0
+          width: 100%
+
+    .um-groups-blocked-wrapper
+      .um-groups-members-list
+        .um-groups-user-wrap
+          padding: 0
+          width: 100%
+
+    .um-groups-invites-users-wrapper
+      .um-member-directory-header
+        .um-member-directory-header-row
+          .um-member-directory-search-line
+            width: 100%
+          &.um-member-directory-search-row
+            justify-content: flex-start
+
+          .um-member-directory-nav-line
+            flex-wrap: wrap
+            .um-member-directory-view-type
+              width: 20px
+              font-size: 20px
+              line-height: 20px
+              margin: 0 2px 0 0
+            .um-member-directory-sorting
+              width: calc( 100% - 25px )
+              justify-content: flex-end
+              .um-new-dropdown
+                right: 0
+                left: auto
+            .um-member-directory-filters
+              flex: none
+              width: 100%
+        .um-search
+          grid-template-columns: repeat(1, 1fr)
+
+      .um-members-wrapper
+        .um-members
+          .um-member
+            width: 100%
+          &.um-members-grid
+            .um-gutter-sizer
+              width: 0
+          &.um-members-list
+            .um-member
+              padding: 10px
+              .um-member-photo
+                width: 50px
+                margin: 0 10px 0 0
+                a
+                  width: 50px
+                  height: 50px
+                  img
+                    width: 50px
+                    height: 50px
+
+              .um-member-card
+                width: calc( 100% - 60px )
+
+              .um-member-card-footer
+                align-items: flex-start
+                .um-member-card-footer-buttons
+                  +flex( column, flex-start, stretch, nowrap )
+                  width: calc( 100% - 90px )
+                  margin: 0 10px 0 0
+                  .um-members-list-footer-button-wrapper
+                    margin: 0 0 5px 0
+                    a.um-button
+                      width: 100% !important
+      .um-members-pagination-box
+        .um-members-pagi
+          display: none
+
+  &.uimob500
+    .um-groups-users-wrapper
+      .um-groups-members-list
+        .um-groups-user-wrap
+          padding: 0
+          width: 100%
+
+    .um-groups-requests-wrapper
+      .um-groups-members-list
+        .um-groups-user-wrap
+          padding: 0
+          width: 100%
+
+    .um-groups-blocked-wrapper
+      .um-groups-members-list
+        .um-groups-user-wrap
+          padding: 0
+          width: 100%
+
+    .um-groups-invites-users-wrapper
+      .um-member-directory-header
+        .um-member-directory-header-row
+          .um-member-directory-search-line
+            width: 100%
+          &.um-member-directory-search-row
+            justify-content: flex-start
+          .um-member-directory-nav-line
+            .um-member-directory-view-type
+              width: 20px
+              font-size: 20px
+              line-height: 20px
+              margin: 0 5px 0 0
+        .um-search
+          grid-template-columns: repeat(1, 1fr)
+      .um-members-wrapper
+        .um-members
+          .um-member
+            width: 100%
+          &.um-members-grid
+            .um-gutter-sizer
+              width: 0
+          &.um-members-list
+            .um-member
+              .um-member-photo
+                width: 70px
+                margin: 0 10px 0 0
+                a
+                  width: 70px
+                  height: 70px
+                  img
+                    width: 70px
+                    height: 70px
+
+              .um-member-card
+                width: calc( 100% - 80px )
+              .um-member-card-footer
+                align-items: flex-start
+                .um-member-card-footer-buttons
+                  flex-wrap: wrap
+                  width: calc( 100% - 110px )
+                  margin: 0 10px 0 0
+                  .um-members-list-footer-button-wrapper
+                    margin: 0 10px 5px 0
+      .um-members-pagination-box
+        .um-members-pagi
+          display: none
+  &.uimob800
+    .um-groups-invites-users-wrapper
+      .um-member-directory-header
+        .um-member-directory-header-row
+          .um-member-directory-search-line
+            width: 100%
+        .um-search
+          grid-template-columns: repeat(2, 1fr)
+
+      .um-members-wrapper
+        .um-members
+          &.um-members-grid
+            .um-gutter-sizer
+              width: 4%
+            .um-member
+              width: 48%
+          &.um-members-list
+            .um-member
+              .um-member-photo
+                width: 80px
+                margin: 0 10px 0 0
+                a
+                  width: 80px
+                  height: 80px
+                  img
+                    width: 80px
+                    height: 80px
+
+              .um-member-card
+                width: calc( 100% - 90px )
+              .um-member-card-footer
+                align-items: flex-start
+                .um-member-card-footer-buttons
+                  flex-wrap: wrap
+                  width: calc( 100% - 120px )
+                  margin: 0 10px 0 0
+                  .um-members-list-footer-button-wrapper
+                    margin: 0 10px 5px 0
+  &.uimob960
+    .um-groups-invites-users-wrapper
+      .um-member-directory-header
+        .um-search
+          grid-template-columns: repeat(2, 1fr)
+
+      .um-members-wrapper
+        .um-members
+          &.um-members-grid
+            .um-gutter-sizer
+              width: 4%
+            .um-member
+              width: 48%
+
+
+.select2-container .select2-results li.select2-results__option[aria-disabled=true]
+  display: none

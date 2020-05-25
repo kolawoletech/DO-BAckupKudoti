@@ -1,0 +1,1356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Groups\n"
+"POT-Creation-Date: 2019-10-04 14:52+0000\n"
+"PO-Revision-Date: 2019-10-04 14:52+0000\n"
+"Last-Translator: First Admin <aleksandrastapov87+um@gmail.com>\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: um-groups.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#: um-groups.php:40 um-groups.php:56
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"Udvidelsen <strong>%s</strong> kræver, at det ultimative medlems plugin skal "
+"aktiveres for at fungere korrekt. Du kan downloade det <a href=\"https:"
+"//wordpress.org/plugins/ultimate-member\">her</a>"
+
+#: includes/um-groups-short-functions.php:133
+msgid "You must upload an image file."
+msgstr "Du skal uploade en billedfil."
+
+#: templates/create-group-form.php:25 admin/templates/manage-members.php:32
+#: admin/templates/manage-members.php:48
+#: includes/core/filters/um-groups-admin.php:33
+msgid "Name"
+msgstr "Navn"
+
+#: templates/create-group-form.php:37 includes/core/class-groups-form.php:90
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: templates/create-group-form.php:49 admin/templates/groups.php:20
+#: includes/core/filters/um-groups-admin.php:37
+msgid "Privacy"
+msgstr "Privatliv"
+
+#: templates/create-group-form.php:54
+#: includes/core/class-groups-main-api.php:54
+msgid "Public"
+msgstr "Offentlig"
+
+#: templates/create-group-form.php:56
+msgid "Any site member can join this group."
+msgstr "Ethvert websted medlem kan deltage i denne gruppe."
+
+#: templates/create-group-form.php:57 templates/create-group-form.php:67
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr "Denne gruppe vil blive opført i gruppekataloget og i søgeresultater."
+
+#: templates/create-group-form.php:58
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+"Gruppens indhold og aktivitet vil være synlige for ethvert webstedsmedlem."
+
+#: templates/create-group-form.php:64
+#: includes/core/class-groups-main-api.php:56
+msgid "Private"
+msgstr "Privat"
+
+#: templates/create-group-form.php:66
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+"Kun brugere, der anmelder medlemskab og accepteres, kan deltage i gruppen."
+
+#: templates/create-group-form.php:68 templates/create-group-form.php:78
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+"Gruppens indhold og aktivitet er kun synlige for medlemmerne af gruppen."
+
+#: templates/create-group-form.php:74
+#: includes/core/class-groups-main-api.php:57
+msgid "Hidden"
+msgstr "Skjult"
+
+#: templates/create-group-form.php:76
+msgid "Only users who are invited can join the group."
+msgstr "Kun brugere, der inviteres, kan deltage i gruppen."
+
+#: templates/create-group-form.php:77
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr "Denne gruppe vises ikke i gruppekataloget eller i søgeresultaterne."
+
+#: templates/create-group-form.php:87 admin/templates/groups.php:36
+msgid "Posts Moderation"
+msgstr "Indlæg Moderering"
+
+#: templates/create-group-form.php:89
+#: includes/core/class-groups-main-api.php:92
+msgid "Auto Published"
+msgstr "Automatisk offentliggjort"
+
+#: templates/create-group-form.php:90
+#: includes/core/class-groups-main-api.php:93
+msgid "Require Mod/Admin"
+msgstr "Kræv Mod/Admin"
+
+#: templates/create-group-form.php:97
+msgid "Enable Invites feature"
+msgstr "Aktivér inviterefunktion"
+
+#: templates/create-group-form.php:103 admin/templates/invites.php:30
+msgid "Who can invite members to the group?"
+msgstr "Hvem kan invitere medlemmer til gruppen?"
+
+#: templates/create-group-form.php:105
+#: includes/core/class-groups-main-api.php:86
+msgid "All Group Members"
+msgstr "Alle Gruppemedlemmer"
+
+#: templates/create-group-form.php:106
+#: includes/core/class-groups-main-api.php:87
+msgid "Group Administrators & Moderators only"
+msgstr "Kun gruppeadministratorer og moderatorer"
+
+#: templates/create-group-form.php:107
+#: includes/core/class-groups-main-api.php:88
+msgid "Group Administrators only"
+msgstr "Kun gruppeadministratorer"
+
+#: templates/create-group-form.php:114
+msgid "Category"
+msgstr "Kategori"
+
+#: templates/create-group-form.php:130 includes/core/class-groups-form.php:121
+msgid "Tags"
+msgstr "Tags"
+
+#: templates/create-group-form.php:147
+msgid "Submit"
+msgstr "Indsend"
+
+#: templates/create-group-form.php:149 templates/discussion/clone.php:49
+#: templates/discussion/user-wall.php:184
+msgid "Update"
+msgstr "Opdatering"
+
+#: templates/latest_comments.php:70 templates/directory/directory.php:47
+#: templates/directory/directory_confirm.php:59
+#, php-format
+msgid "%s Group"
+msgstr "%s Gruppe"
+
+#: templates/list-users-search-form.php:23
+msgid "Search people"
+msgstr "Søg personer"
+
+#: templates/list-users-search-form.php:35
+#: templates/directory/directory_search.php:49
+msgid "Search"
+msgstr "Søg"
+
+#: templates/list-users-search-form.php:38
+msgid "Reset"
+msgstr ""
+
+#: templates/list-users.php:74
+#, php-format
+msgid "Joined %s"
+msgstr "Indmeldt %s"
+
+#: templates/list-users.php:94
+msgid "Load more..."
+msgstr "Indlæs mere..."
+
+#: templates/list-users.php:101
+msgid "Sorry, we couldn't find any results for this search."
+msgstr "Beklager, vi kunne ikke finde nogen resultater til denne søgning."
+
+#: templates/list-users.php:105
+msgid "There are no members to show."
+msgstr "Der er ingen medlemmer at vise."
+
+#: admin/templates/add-members.php:13
+#: includes/core/class-groups-main-api.php:862
+#: includes/core/actions/um-groups-users-list.php:16
+msgid "Already a member"
+msgstr "Allerede medlem"
+
+#: admin/templates/add-members.php:13
+msgid "added by"
+msgstr "tilføjet af"
+
+#: admin/templates/add-members.php:15
+msgid "Add Member"
+msgstr "Tilføj medlem"
+
+#: admin/templates/add-members.php:16
+msgid "New search"
+msgstr "Ny søgning"
+
+#: admin/templates/groups.php:27
+msgid "Role list"
+msgstr ""
+
+#: admin/templates/manage-members.php:13
+msgid "Show all group status"
+msgstr "Vis alle gruppestatus"
+
+#: admin/templates/manage-members.php:21
+msgid "Show all group roles"
+msgstr "Vis alle gruppearbejder"
+
+#: admin/templates/manage-members.php:33 admin/templates/manage-members.php:49
+#: includes/core/class-groups-form.php:132
+msgid "Status"
+msgstr "Status"
+
+#: admin/templates/manage-members.php:34 admin/templates/manage-members.php:50
+msgid "Group Role"
+msgstr "Gruppens rolle"
+
+#: admin/templates/manage-members.php:35 admin/templates/manage-members.php:51
+msgid "Actions"
+msgstr "Handlinger"
+
+#: admin/templates/manage-members.php:36 admin/templates/manage-members.php:52
+msgid "Hidden Status"
+msgstr "Skjult status"
+
+#: admin/templates/manage-members.php:37 admin/templates/manage-members.php:53
+msgid "Hidden Role"
+msgstr "Skjult rolle"
+
+#: admin/templates/manage-members.php:38 admin/templates/manage-members.php:54
+msgid "Hidden User Login"
+msgstr "Skjult bruger login"
+
+#: admin/templates/manage-members.php:39 admin/templates/manage-members.php:55
+msgid "Hidden User Email"
+msgstr "Skjult bruger e-mail"
+
+#: admin/templates/manage-members.php:40 admin/templates/manage-members.php:56
+msgid "Hidden Timestamp"
+msgstr "Skjult Timestamp"
+
+#: includes/core/class-groups-discussion.php:28
+msgid "New wall post"
+msgstr "Nyt vægpost"
+
+#: includes/core/class-groups-discussion.php:29
+msgid "New user"
+msgstr "Ny bruger"
+
+#: includes/core/class-groups-discussion.php:30
+msgid "New blog post"
+msgstr "Nyt blogindlæg"
+
+#: includes/core/class-groups-discussion.php:31
+msgid "New product"
+msgstr "Nyt produkt"
+
+#: includes/core/class-groups-discussion.php:32
+msgid "New Group"
+msgstr "Ny gruppe"
+
+#: includes/core/class-groups-discussion.php:33
+msgid "New Gravity From"
+msgstr "Ny Gravity From"
+
+#: includes/core/class-groups-discussion.php:34
+msgid "New Gravity From Answer"
+msgstr "Ny Gravity From Answer"
+
+#: includes/core/class-groups-discussion.php:35
+msgid "New follow"
+msgstr "Ny følge"
+
+#: includes/core/class-groups-discussion.php:36
+msgid "New forum topic"
+msgstr "Nyt forum emne"
+
+#: includes/core/class-groups-discussion.php:265
+msgid "See more"
+msgstr "Se mere"
+
+#: includes/core/class-groups-discussion.php:480
+msgid "Untitled"
+msgstr "Untitled"
+
+#: includes/core/class-groups-discussion.php:699
+#: templates/discussion/clone.php:36
+msgid "Just now"
+msgstr "Lige nu"
+
+#: includes/core/class-groups-discussion.php:707
+#, php-format
+msgid "%s min"
+msgstr "%s min"
+
+#: includes/core/class-groups-discussion.php:709
+#, php-format
+msgid "%s mins"
+msgstr "%s minutter"
+
+#: includes/core/class-groups-discussion.php:718
+#, php-format
+msgid "%s hr"
+msgstr "%s time"
+
+#: includes/core/class-groups-discussion.php:720
+#, php-format
+msgid "%s hrs"
+msgstr "%s timer"
+
+#: includes/core/class-groups-discussion.php:729
+#, php-format
+msgid "Yesterday at %s"
+msgstr "I går på %s"
+
+#: includes/core/class-groups-discussion.php:729
+#: includes/core/class-groups-discussion.php:731
+#: includes/core/class-groups-discussion.php:736
+#: includes/core/class-groups-discussion.php:740
+#: includes/core/class-groups-discussion.php:744
+msgid "g:ia"
+msgstr "g:ia"
+
+#: includes/core/class-groups-discussion.php:731
+#: includes/core/class-groups-discussion.php:736
+#: includes/core/class-groups-discussion.php:740
+#: includes/core/class-groups-discussion.php:744
+#, php-format
+msgid "%s at %s"
+msgstr "%s ved %s"
+
+#: includes/core/class-groups-discussion.php:731
+#: includes/core/class-groups-discussion.php:736
+#: includes/core/class-groups-discussion.php:740
+msgid "F d"
+msgstr "F d"
+
+#: includes/core/class-groups-discussion.php:744
+msgid "F d, Y"
+msgstr "F d, Y"
+
+#: includes/core/class-groups-discussion.php:772
+#: templates/discussion/likes.php:17
+msgid "People who like this"
+msgstr "Folk der kan lide dette"
+
+#: includes/core/class-groups-discussion.php:1090
+#: includes/core/class-groups-discussion.php:1169
+#: includes/core/class-groups-discussion.php:1192
+#: includes/core/class-groups-discussion.php:1222
+#: includes/core/class-groups-discussion.php:1266
+#: includes/core/class-groups-discussion.php:1297
+#: includes/core/class-groups-discussion.php:1328
+#: includes/core/class-groups-discussion.php:1352
+#: includes/core/class-groups-discussion.php:1376
+#: includes/core/class-groups-discussion.php:1412
+#: includes/core/class-groups-discussion.php:1498
+#: includes/core/class-groups-discussion.php:1551
+#: includes/core/class-groups-discussion.php:1594
+#: includes/core/class-groups-discussion.php:1633
+#: includes/core/class-groups-discussion.php:1677
+#: includes/core/class-groups-discussion.php:1720
+#: includes/core/class-groups-discussion.php:1803
+#: includes/core/class-groups-discussion.php:2024
+msgid ""
+"You do not have the necessary permission for the specified Group to perform "
+"this action."
+msgstr ""
+"Du har ikke den nødvendige tilladelse til den angivne gruppe til at udføre "
+"denne handling."
+
+#: includes/core/class-groups-discussion.php:1556
+#: includes/core/class-groups-discussion.php:1638
+msgid "You must login to like"
+msgstr "Du skal logge ind for at kunne lide"
+
+#: includes/core/class-groups-discussion.php:1559
+#: includes/core/class-groups-discussion.php:1602
+msgid "Invalid comment"
+msgstr "Ugyldig kommentar"
+
+#: includes/core/class-groups-discussion.php:1599
+#: includes/core/class-groups-discussion.php:1682
+msgid "You must login to unlike"
+msgstr "Du skal logge ind i modsætning til"
+
+#: includes/core/class-groups-discussion.php:1641
+#: includes/core/class-groups-discussion.php:1685
+#: includes/core/class-groups-discussion.php:1729
+msgid "Invalid wall post"
+msgstr "Ugyldigt vægpost"
+
+#: includes/core/class-groups-discussion.php:1726
+msgid "Login to post a comment"
+msgstr "Log ind for at skrive en kommentar"
+
+#: includes/core/class-groups-discussion.php:1732
+msgid "Enter a comment first"
+msgstr "Indtast en kommentar først"
+
+#: includes/core/class-groups-discussion.php:1808
+msgid "You can not post as guest"
+msgstr "Du kan ikke skrive som gæst"
+
+#: includes/core/class-groups-discussion.php:1814
+msgid "You should type something first"
+msgstr "Du skal skrive noget først"
+
+#: includes/core/class-groups-discussion.php:2047
+msgid "Post has been approved"
+msgstr "Post er blevet godkendt"
+
+#: includes/core/class-groups-discussion.php:2056
+msgid "Post has been deleted"
+msgstr "Indlægget er blevet slettet"
+
+#: includes/core/class-groups-discussion.php:2216
+#, php-format
+msgid "load %s more comments"
+msgstr "indlæs %s flere kommentarer"
+
+#: includes/core/class-groups-discussion.php:2218
+#, php-format
+msgid "load %s more comment"
+msgstr "indlæs %s mere kommentar"
+
+#: includes/core/class-groups-discussion.php:2220
+#: includes/core/class-groups-discussion.php:2231
+msgid "load more replies"
+msgstr "indlæs flere svar"
+
+#: includes/core/class-groups-discussion.php:2220
+#: includes/core/class-groups-discussion.php:2231
+msgid "load more comments"
+msgstr "indlæse flere kommentarer"
+
+#: includes/core/class-groups-discussion.php:2227
+#, php-format
+msgid "load %s more replies"
+msgstr "indlæs %s flere svar"
+
+#: includes/core/class-groups-discussion.php:2229
+#, php-format
+msgid "load %s more reply"
+msgstr "indlæs %s mere svar"
+
+#: includes/core/class-groups-enqueue.php:90
+msgid "All"
+msgstr "Alle"
+
+#: includes/core/class-groups-enqueue.php:91
+#: templates/discussion/user-wall.php:165
+#: templates/discussion/user-wall.php:165
+#: includes/core/filters/um-groups-users-list.php:163
+msgid "Approve"
+msgstr "Godkende"
+
+#: includes/core/class-groups-enqueue.php:92
+#: includes/core/filters/um-groups-users-list.php:165
+msgid "Block"
+msgstr "Blok"
+
+#: includes/core/class-groups-enqueue.php:93
+msgid "Are you sure that you want to expel this member?"
+msgstr "Er du sikker på, at du vil udvise dette medlem?"
+
+#: includes/core/class-groups-enqueue.php:94
+msgid "Are you sure that you want to leave this group?"
+msgstr "Er du sikker på, at du vil forlade denne gruppe?"
+
+#: includes/core/class-groups-enqueue.php:95
+msgid "Display"
+msgstr "Skærm"
+
+#: includes/core/class-groups-enqueue.php:96
+msgid "Expel"
+msgstr "Bortvise"
+
+#: includes/core/class-groups-enqueue.php:97
+#: includes/core/class-groups-main-api.php:870
+#: includes/core/filters/um-groups-users-list.php:79
+msgid "Invite"
+msgstr "Invitere"
+
+#: includes/core/class-groups-enqueue.php:98
+#: includes/core/class-groups-main-api.php:866
+msgid "Invited"
+msgstr "Inviteret"
+
+#: includes/core/class-groups-enqueue.php:99
+msgid "Display _MENU_ profiles per page"
+msgstr "Vis _MENU_ profiler pr. side"
+
+#: includes/core/class-groups-enqueue.php:100
+msgid "members"
+msgstr "medlemmer"
+
+#: includes/core/class-groups-enqueue.php:101
+msgid "No members found"
+msgstr "Ingen medlemmer fundet"
+
+#: includes/core/class-groups-enqueue.php:102
+msgid "No members yet"
+msgstr "Ingen medlemmer endnu"
+
+#: includes/core/class-groups-enqueue.php:103
+msgid "Showing _START_ to _END_ of _TOTAL_ members"
+msgstr "Viser _START_ til _END_ af _TOTAL_ medlemmer"
+
+#: includes/core/class-groups-enqueue.php:104
+msgid "Showing 0 to 0 of 0 members"
+msgstr "Viser 0 til 0 ud af 0 medlemmer"
+
+#: includes/core/class-groups-enqueue.php:105
+msgid "(filtered from _MAX_ total members)"
+msgstr "(filtreret fra _MAX_ samlede medlemmer)"
+
+#: includes/core/class-groups-enqueue.php:106
+msgid "Loading members..."
+msgstr "Indlæser medlemmer..."
+
+#: includes/core/class-groups-enqueue.php:107
+msgid "Resend"
+msgstr "Send igen"
+
+#: includes/core/class-groups-enqueue.php:108
+#: includes/core/filters/um-groups-users-list.php:164
+msgid "Reject"
+msgstr "Afvise"
+
+#: includes/core/class-groups-enqueue.php:109
+msgid "Search name:"
+msgstr "Søg navn:"
+
+#: includes/core/class-groups-enqueue.php:110
+msgid "Sent"
+msgstr "Sendt"
+
+#: includes/core/class-groups-enqueue.php:111
+#: includes/core/filters/um-groups-users-list.php:195
+msgid "Unblock"
+msgstr "Unblock"
+
+#: includes/core/class-groups-enqueue.php:112
+msgid "Something went wrong. Please try again"
+msgstr "Noget gik galt. Prøv igen"
+
+#: includes/core/class-groups-form.php:80
+msgid "Title"
+msgstr "Titel"
+
+#: includes/core/class-groups-form.php:101
+msgid "Featured Image"
+msgstr "Fremhævet billede"
+
+#: includes/core/class-groups-form.php:110
+msgid "Categories"
+msgstr "Kategorier"
+
+#: includes/core/class-groups-main-api.php:55
+msgid "Public for Role"
+msgstr ""
+
+#: includes/core/class-groups-main-api.php:70
+msgid "Pending Admin Review"
+msgstr "I afventning af Admin Review"
+
+#: includes/core/class-groups-main-api.php:71
+msgid "Pending Member Review"
+msgstr "Afventer medlemsanmeldelse"
+
+#: includes/core/class-groups-main-api.php:72
+msgid "Approved"
+msgstr "Godkendt"
+
+#: includes/core/class-groups-main-api.php:73
+msgid "Rejected"
+msgstr "Afvist"
+
+#: includes/core/class-groups-main-api.php:74
+#: includes/core/filters/um-groups-single.php:269
+msgid "Blocked"
+msgstr "Blokeret"
+
+#: includes/core/class-groups-main-api.php:79
+msgid "Administrator"
+msgstr "Administrator"
+
+#: includes/core/class-groups-main-api.php:80
+msgid "Moderator"
+msgstr "Redaktør"
+
+#: includes/core/class-groups-main-api.php:81
+msgid "Member"
+msgstr "Medlem"
+
+#: includes/core/class-groups-main-api.php:82
+msgid "Banned"
+msgstr "Banned"
+
+#: includes/core/class-groups-main-api.php:97
+msgid "Oldest members first"
+msgstr "Ældste medlemmer først"
+
+#: includes/core/class-groups-main-api.php:98
+msgid "Newest members first"
+msgstr "Nyeste medlemmer først"
+
+#: includes/core/class-groups-main-api.php:225
+msgid "You're already a member of this group."
+msgstr "Du er allerede medlem af denne gruppe."
+
+#: includes/core/class-groups-main-api.php:289
+msgid "Only members can add you to this group."
+msgstr "Kun medlemmer kan tilføje dig til denne gruppe."
+
+#: includes/core/class-groups-main-api.php:1357
+#: includes/core/filters/um-groups-users-list.php:50
+msgid "Make Admin"
+msgstr "Gør Admin"
+
+#: includes/core/class-groups-main-api.php:1358
+#: includes/core/filters/um-groups-users-list.php:52
+msgid "Make Member"
+msgstr "Lav medlem"
+
+#: includes/core/class-groups-main-api.php:1359
+#: includes/core/filters/um-groups-users-list.php:51
+msgid "Make Moderator"
+msgstr "Lav moderator"
+
+#: includes/core/class-groups-main-api.php:1475
+#, php-format
+msgid "<strong>%s - %s</strong> - already a member"
+msgstr "<strong>%s - %s</strong> - allerede medlem"
+
+#: includes/core/class-groups-main-api.php:1477
+#, php-format
+msgid "<strong>%s - %s</strong>"
+msgstr "<strong>%s - %s</strong>"
+
+#: includes/core/class-groups-main-api.php:1485
+msgid "Nothing found"
+msgstr "Intet fundet"
+
+#: includes/core/class-groups-main-api.php:1848
+#: includes/core/class-groups-main-api.php:1853
+#: includes/core/class-groups-main-api.php:1859
+#: includes/core/class-groups-main-api.php:1865
+#: includes/core/actions/um-groups-actions.php:38
+msgid "Join Group"
+msgstr "Tilmeld gruppe"
+
+#: includes/core/class-groups-main-api.php:1849
+#: includes/core/class-groups-main-api.php:1855
+#: includes/core/class-groups-main-api.php:1861
+#: includes/core/class-groups-main-api.php:1866
+#: includes/core/filters/um-groups-users-list.php:131
+msgid "Leave Group"
+msgstr "Forlad gruppe"
+
+#: includes/core/class-groups-main-api.php:1854
+#: includes/core/class-groups-main-api.php:1860
+msgid "Request Sent"
+msgstr "Anmodning sendt"
+
+#: includes/core/class-groups-main-api.php:1856
+#: includes/core/class-groups-main-api.php:1862
+msgid "Cancel"
+msgstr "Afbestille"
+
+#: includes/core/class-groups-member.php:297
+msgid "Invalid data"
+msgstr "Ugyldige data"
+
+#: includes/core/class-groups-member.php:306
+#: includes/core/class-groups-member.php:381
+#: includes/core/class-groups-member.php:447
+#: includes/core/class-groups-member.php:507
+#: includes/core/class-groups-member.php:564
+#: includes/core/class-groups-member.php:626
+msgid "Invalid request"
+msgstr "Ugyldig forespørgsel"
+
+#: includes/core/class-groups-setup.php:119
+#: includes/core/filters/um-groups-integrate-notifications.php:13
+msgid "Groups - Approve Member"
+msgstr "Grupper - Godkend medlem"
+
+#: includes/core/class-groups-setup.php:120
+#: includes/core/filters/um-groups-integrate-notifications.php:14
+msgid "Your request to join {group_name} have been approved."
+msgstr "Din anmodning om at deltage i {group_name} er blevet godkendt."
+
+#: includes/core/class-groups-setup.php:121
+#: includes/core/filters/um-groups-integrate-notifications.php:15
+msgid "When my group requests have been approved"
+msgstr "Når mine gruppeanmodninger er blevet godkendt"
+
+#: includes/core/class-groups-setup.php:126
+#: includes/core/filters/um-groups-integrate-notifications.php:20
+msgid "Groups - Join Request"
+msgstr "Grupper - Tilmeld dig"
+
+#: includes/core/class-groups-setup.php:127
+#: includes/core/filters/um-groups-integrate-notifications.php:21
+msgid "{member_name} has requested to join {group_name}."
+msgstr "{member_name} har bedt om at blive medlem af {group_name}."
+
+#: includes/core/class-groups-setup.php:128
+#: includes/core/filters/um-groups-integrate-notifications.php:22
+msgid "When a user requested to join their group"
+msgstr "Når en bruger anmodede om at blive medlem af deres gruppe"
+
+#: includes/core/class-groups-setup.php:133
+#: includes/core/filters/um-groups-integrate-notifications.php:27
+msgid "Groups - Invite Member"
+msgstr "Grupper - Inviter medlem"
+
+#: includes/core/class-groups-setup.php:134
+#: includes/core/filters/um-groups-integrate-notifications.php:28
+msgid "{group_invitation_host_name} has invited you to join {group_name}."
+msgstr ""
+"{group_invitation_host_name} har inviteret dig til at deltage i {group_name}."
+
+#: includes/core/class-groups-setup.php:135
+#: includes/core/filters/um-groups-integrate-notifications.php:29
+msgid "When a member has invited to join a group"
+msgstr "Når et medlem har inviteret til at deltage i en gruppe"
+
+#: includes/core/class-groups-setup.php:139
+#: includes/core/filters/um-groups-integrate-notifications.php:33
+msgid "Groups - Change Group Role"
+msgstr "Grupper - Skift gruppens rolle"
+
+#: includes/core/class-groups-setup.php:140
+#: includes/core/filters/um-groups-integrate-notifications.php:34
+msgid ""
+"Your group role {group_role_old} has been changed to {group_role_new} in "
+"{group_name}."
+msgstr ""
+"Din grupperolle {group_role_old} er blevet ændret til {group_role_new} i "
+"{group_name}."
+
+#: includes/core/class-groups-setup.php:141
+#: includes/core/filters/um-groups-integrate-notifications.php:35
+msgid "When my group roles have been changed"
+msgstr "Når mine grupperoller er blevet ændret"
+
+#: includes/core/class-groups-taxonomies.php:149
+msgid "Set Group Image"
+msgstr "Indstil gruppe billede"
+
+#: includes/core/class-groups-taxonomies.php:150
+msgid "Remove Group Image"
+msgstr "Fjern gruppe billede"
+
+#: includes/core/class-groups-taxonomies.php:170
+msgid "Group Image"
+msgstr "Gruppebillede"
+
+#: includes/core/um-groups-widget.php:21
+msgid "Ultimate Member - Groups: Show latest groups"
+msgstr "Ultimate Member - Grupper: Vis nyeste grupper"
+
+#: includes/core/um-groups-widget.php:24
+msgid "Shows latest groups in a widget."
+msgstr "Viser seneste grupper i en widget."
+
+#: includes/core/um-groups-widget.php:71
+msgid "Latest Groups"
+msgstr "Seneste grupper"
+
+#: templates/directory/directory.php:32
+msgid "Last active: "
+msgstr ""
+
+#: templates/directory/directory.php:32
+msgid " ago"
+msgstr "  siden"
+
+#: templates/directory/directory.php:33
+#, php-format
+msgid "<span>%s</span> member"
+msgid_plural "<span>%s</span> members"
+msgstr[0] "<span>%s</span> medlem"
+msgstr[1] "<span>%s</span> medlemmer"
+
+#: templates/directory/directory_confirm.php:38
+msgid "You've been invited by"
+msgstr ""
+
+#: templates/directory/directory_confirm.php:39
+msgid "Would you like to join this group?"
+msgstr "Vil du være med i denne gruppe?"
+
+#: templates/directory/directory_confirm.php:42
+msgid "Confirm"
+msgstr "Bekræfte"
+
+#: templates/directory/directory_confirm.php:43
+msgid "Ignore"
+msgstr "Ignorere"
+
+#: templates/directory/directory_search.php:24
+msgid "All Categories"
+msgstr "Alle Gruppekategorier"
+
+#: templates/directory/directory_search.php:35
+msgid "All Tags"
+msgstr "Alle tags"
+
+#: templates/directory/directory_search.php:52
+msgid "Clear"
+msgstr "Klar"
+
+#: templates/directory/directory_tabs.php:17
+#: includes/core/actions/um-groups-directory.php:248
+#, php-format
+msgid "All Groups <span>%s</span>"
+msgstr "Alle grupper <span>%s</span>"
+
+#: templates/directory/directory_tabs.php:22
+#, php-format
+msgid "My Groups <span>%s</span>"
+msgstr "Mine grupper <span>%s</span>"
+
+#: templates/directory/directory_tabs.php:25
+msgid "Create a Group"
+msgstr "Opret en gruppe"
+
+#: templates/discussion/clone.php:23
+msgid "No group discussions available."
+msgstr "Ingen gruppediskussioner tilgængelige."
+
+#: templates/discussion/clone.php:49 templates/discussion/user-wall.php:184
+msgid "Cancel editing"
+msgstr "Annuller redigering"
+
+#: templates/discussion/clone.php:49 templates/discussion/comment-reply.php:57
+#: templates/discussion/comment.php:65 templates/discussion/comments.php:53
+#: templates/discussion/comments.php:85 templates/discussion/user-wall.php:184
+msgid "Edit"
+msgstr "Redigere"
+
+#: templates/discussion/clone.php:51 templates/discussion/user-wall.php:169
+#: templates/discussion/user-wall.php:188
+msgid "Are you sure you want to delete this post?"
+msgstr "Er du sikker på, at du vil slette dette indlæg?"
+
+#: templates/discussion/clone.php:51 templates/discussion/comment-reply.php:58
+#: templates/discussion/comment.php:66 templates/discussion/comments.php:54
+#: templates/discussion/comments.php:87 templates/discussion/user-wall.php:169
+#: templates/discussion/user-wall.php:169
+#: templates/discussion/user-wall.php:188 templates/tabs/avatar.php:36
+#: includes/core/filters/um-groups-single.php:410
+msgid "Delete"
+msgstr "Slet"
+
+#: templates/discussion/clone.php:100 templates/discussion/comment-reply.php:43
+#: templates/discussion/comment-reply.php:45
+#: templates/discussion/comment-reply.php:45
+#: templates/discussion/comment.php:48 templates/discussion/comment.php:50
+#: templates/discussion/comment.php:50 templates/discussion/comments.php:48
+#: templates/discussion/comments.php:48 templates/discussion/comments.php:80
+#: templates/discussion/comments.php:80 templates/discussion/user-wall.php:289
+#: templates/discussion/user-wall.php:291
+#: templates/discussion/user-wall.php:291
+msgid "Like"
+msgstr "Synes godt om"
+
+#: templates/discussion/clone.php:102 templates/discussion/user-wall.php:294
+msgid "Comment"
+msgstr "Kommentar"
+
+#: templates/discussion/comment-reply.php:27
+msgid "Reply hidden. <a href=\"#\" class=\"um-link\">Show this reply</a>"
+msgstr "Besvar skjult. <a href=\"#\" class=\"um-link\">Vis dette svar</a>"
+
+#: templates/discussion/comment-reply.php:43
+#: templates/discussion/comment-reply.php:45
+#: templates/discussion/comment.php:48 templates/discussion/comment.php:48
+#: templates/discussion/comment.php:50 templates/discussion/comments.php:48
+#: templates/discussion/comments.php:80 templates/discussion/user-wall.php:289
+#: templates/discussion/user-wall.php:289
+#: templates/discussion/user-wall.php:291
+msgid "Unlike"
+msgstr "I modsætning til"
+
+#: templates/discussion/comment-reply.php:58
+#: templates/discussion/comment.php:66 templates/discussion/comments.php:54
+#: templates/discussion/comments.php:87
+msgid "Are you sure you want to delete this comment?"
+msgstr "Er du sikker på, at du vil slette denne kommentar?"
+
+#: templates/discussion/comment.php:32
+msgid "Comment hidden. <a href=\"#\" class=\"um-link\">Show this comment</a>"
+msgstr ""
+"Kommentar skjult. <a href=\"#\" class=\"um-link\">Vis denne kommentar</a>"
+
+#: templates/discussion/comment.php:56 templates/discussion/comments.php:49
+msgid "Reply"
+msgstr "Svar"
+
+#: templates/discussion/comments.php:22
+msgid "Write a reply..."
+msgstr "Skriv et svar..."
+
+#: templates/discussion/comments.php:22
+msgid "Write a comment..."
+msgstr "Skriv en kommentar..."
+
+#: templates/discussion/comments.php:30 templates/discussion/comments.php:67
+msgid "Hide"
+msgstr "Skjule"
+
+#: templates/discussion/new.php:44
+#, php-format
+msgid "%s post requires approval"
+msgid_plural "%s posts require approval"
+msgstr[0] "% s indlæg kræver godkendelse"
+msgstr[1] "% s indlæg kræver godkendelse"
+
+#: templates/discussion/new.php:46
+#, php-format
+msgid "You have %s post requires admin approval"
+msgid_plural "You have %s posts require admin approval"
+msgstr[0] "Du har %s indlæg kræver administrator godkendelse"
+msgstr[1] "Du har %s indlæg kræver administrator godkendelse"
+
+#: templates/discussion/new.php:56
+msgid "Write Post"
+msgstr "Skriv indlæg"
+
+#: templates/discussion/new.php:56
+#, php-format
+msgid "Post on %s's wall"
+msgstr "Indlæg på %s væg"
+
+#: templates/discussion/new.php:61
+msgid "Say something about this photo"
+msgstr "Sig noget om dette billede"
+
+#: templates/discussion/new.php:61
+msgid "Write something..."
+msgstr "Skriv noget..."
+
+#: templates/discussion/new.php:85
+msgid "Add photo"
+msgstr "Tilføj billede"
+
+#: templates/discussion/new.php:85
+msgid "Image is too large"
+msgstr "Billedet er for stort"
+
+#: templates/discussion/new.php:85
+msgid "Please upload a valid image"
+msgstr "Upload venligst et gyldigt billede"
+
+#: templates/discussion/new.php:94
+msgid "Post"
+msgstr "Stolpe"
+
+#: templates/discussion/user-wall.php:193
+msgid "Report"
+msgstr "Rapport"
+
+#: templates/discussion/user-wall.php:193
+msgid "Cancel report"
+msgstr "Annuller rapport"
+
+#: templates/discussion/user-wall.php:261
+msgid "likes"
+msgstr "kan lide"
+
+#: templates/discussion/user-wall.php:267
+msgid "comments"
+msgstr "kommentarer"
+
+#: templates/tabs/avatar.php:33 templates/tabs/avatar.php:39
+msgid "Upload"
+msgstr "Upload"
+
+#: templates/tabs/delete.php:19
+msgid "This action cannot be undone."
+msgstr "Denne handling kan ikke fortrydes."
+
+#: templates/tabs/delete.php:22
+msgid "Delete group permanently"
+msgstr "Slet gruppe permanent"
+
+#: includes/core/actions/um-groups-actions.php:88
+msgid "You must enter a group name"
+msgstr "Du skal indtaste et gruppenavn"
+
+#: includes/core/actions/um-groups-actions.php:92
+msgid "Minimum of 3 characters are allowed."
+msgstr "Mindst 3 tegn er tilladt."
+
+#: includes/core/actions/um-groups-actions.php:96
+msgid "You must enter a description"
+msgstr "Du skal indtaste en beskrivelse"
+
+#: includes/core/actions/um-groups-actions.php:100
+msgid "You must select a category"
+msgstr "Du skal vælge en kategori"
+
+#: includes/core/actions/um-groups-actions.php:104
+msgid "You must select a tag"
+msgstr "Du skal vælge et tag"
+
+#: includes/core/actions/um-groups-actions.php:124
+#: includes/core/actions/um-groups-actions.php:155
+#: includes/core/actions/um-groups-actions.php:182
+msgid "Invalid Nonce."
+msgstr "Ugyldig Nonce."
+
+#: includes/core/actions/um-groups-actions.php:129
+#: includes/core/actions/um-groups-actions.php:160
+#: includes/core/actions/um-groups-actions.php:187
+#: includes/core/actions/um-groups-actions.php:205
+#: includes/core/actions/um-groups-actions.php:243
+#: includes/core/actions/um-groups-actions.php:278
+#: includes/core/actions/um-groups-actions.php:334
+msgid "You don't have a permission to change something in this group!"
+msgstr "Du har ikke tilladelse til at ændre noget i denne gruppe!"
+
+#: includes/core/actions/um-groups-actions.php:133
+msgid "You must select an image file"
+msgstr "Du skal vælge en billedfil"
+
+#: includes/core/actions/um-groups-actions.php:228
+msgid "Something went wrong."
+msgstr "Noget gik galt."
+
+#: includes/core/actions/um-groups-actions.php:474
+msgid "Group was updated successfully."
+msgstr "Gruppen blev opdateret med succes."
+
+#: includes/core/actions/um-groups-admin.php:39
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: includes/core/actions/um-groups-admin.php:40
+msgid "Invites settings"
+msgstr "Inviterer indstillinger"
+
+#: includes/core/actions/um-groups-admin.php:43
+msgid "Add New Members"
+msgstr "Tilføj nye medlemmer"
+
+#: includes/core/actions/um-groups-admin.php:44
+msgid "Manage Members"
+msgstr "Administrer medlemmer"
+
+#: includes/core/actions/um-groups-admin.php:103
+msgid "Group #"
+msgstr "Gruppe #"
+
+#: includes/core/actions/um-groups-admin.php:169
+msgid "Delete Group Permanently"
+msgstr "Slet gruppe permanent"
+
+#: includes/core/actions/um-groups-admin.php:171
+msgid "Delete Group"
+msgstr "Slet gruppe"
+
+#: includes/core/actions/um-groups-admin.php:180
+msgid "Add Tab"
+msgstr "Tilføj faneblad"
+
+#: includes/core/actions/um-groups-admin.php:184
+#: includes/core/actions/um-groups-admin.php:185
+msgid "Update Group"
+msgstr "Opdateringsgruppe"
+
+#: includes/core/actions/um-groups-directory.php:135
+msgid "No groups found."
+msgstr "Ingen grupper fundet."
+
+#: includes/core/actions/um-groups-directory.php:203
+#: includes/core/actions/um-groups-directory.php:204
+msgid "load more..."
+msgstr "indlæs flere..."
+
+#: includes/core/actions/um-groups-directory.php:203
+msgid "No more groups to show"
+msgstr "Ikke flere grupper at vise"
+
+#: includes/core/actions/um-groups-discussion.php:16
+#: includes/core/filters/um-groups-admin.php:81
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/core/actions/um-groups-discussion.php:17
+#: includes/core/filters/um-groups-admin.php:80
+msgid "No"
+msgstr "Ingen"
+
+#: includes/core/actions/um-groups-integrate-followers.php:25
+msgid "Follows you"
+msgstr "Følger dig"
+
+#: includes/core/actions/um-groups-integrate-friends.php:24
+msgid "Friend"
+msgstr "Ven"
+
+#: includes/core/actions/um-groups-users-list.php:22
+msgid "This user has been blocked"
+msgstr "Denne bruger er blevet blokeret"
+
+#: includes/core/filters/um-groups-admin.php:15
+msgid "Enter group name..."
+msgstr "Indtast gruppenavn..."
+
+#: includes/core/filters/um-groups-admin.php:36
+#: includes/core/filters/um-groups-single.php:130
+msgid "Members"
+msgstr "Medlemmer"
+
+#: includes/core/filters/um-groups-admin.php:38
+msgid "Creator"
+msgstr "Skaberen"
+
+#: includes/core/filters/um-groups-admin.php:75
+msgid "Require profile to be complete to create post in groups?"
+msgstr ""
+
+#: includes/core/filters/um-groups-admin.php:76
+msgid ""
+"Prevent user from adding posts in groups If their profile completion is "
+"below the completion threshold set up above?"
+msgstr ""
+
+#: includes/core/filters/um-groups-integrate-activity.php:49
+msgid "New group"
+msgstr "Ny gruppe"
+
+#: includes/core/filters/um-groups-profile.php:14
+#: includes/core/filters/um-groups-settings.php:28
+#: includes/core/filters/um-groups-settings.php:123
+msgid "Groups"
+msgstr "Grupper"
+
+#: includes/core/filters/um-groups-settings.php:14
+msgid "Groups License Key"
+msgstr "Gruppens licensnøgle"
+
+#: includes/core/filters/um-groups-settings.php:23
+msgid "Everyone"
+msgstr "Alle sammen"
+
+#: includes/core/filters/um-groups-settings.php:33
+msgid "Show group avatars"
+msgstr "Vis gruppe avatarer"
+
+#: includes/core/filters/um-groups-settings.php:38
+msgid "Show people to Invite tab"
+msgstr "Vis folk til at invitere fanen"
+
+#: includes/core/filters/um-groups-settings.php:40
+#: includes/core/filters/um-groups-settings.php:75
+msgid "Select..."
+msgstr "Vælg..."
+
+#: includes/core/filters/um-groups-settings.php:46
+msgid "Number of discussion posts on desktop"
+msgstr "Antal diskussionsposter på skrivebordet"
+
+#: includes/core/filters/um-groups-settings.php:52
+msgid "Number of discussion posts on mobile"
+msgstr "Number of discussion posts on mobile"
+
+#: includes/core/filters/um-groups-settings.php:58
+msgid "Number of initial comments/replies to display per post"
+msgstr "Antal indledende kommentarer / svar til visning pr. Indlæg"
+
+#: includes/core/filters/um-groups-settings.php:64
+msgid "Number of comments/replies to get when user load more"
+msgstr "Antal kommentarer / svar at få, når brugeren indlæser mere"
+
+#: includes/core/filters/um-groups-settings.php:70
+msgid "Comments order"
+msgstr "Kommentarer rækkefølge"
+
+#: includes/core/filters/um-groups-settings.php:72
+msgid "Newest first"
+msgstr "Nyeste først"
+
+#: includes/core/filters/um-groups-settings.php:73
+msgid "Oldest first"
+msgstr "Ældste først"
+
+#: includes/core/filters/um-groups-settings.php:81
+msgid "How many words appear before discussion post is truncated?"
+msgstr "Hvor mange ord vises før diskussionspost er afkortet?"
+
+#: includes/core/filters/um-groups-settings.php:88
+msgid "Text to display If user needs to login to see group activity."
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:115
+msgid "Create Group"
+msgstr "Opret gruppe"
+
+#: includes/core/filters/um-groups-settings.php:119
+msgid "My Groups"
+msgstr "Mine grupper"
+
+#: includes/core/filters/um-groups-settings.php:127
+msgid "Invites"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:146
+msgid "Groups - Approve Member Email"
+msgstr "Grupper - Godkend medlem Email"
+
+#: includes/core/filters/um-groups-settings.php:157
+msgid "Groups - Join Request Email"
+msgstr "Grupper - Tilmeld dig e-mail"
+
+#: includes/core/filters/um-groups-settings.php:169
+msgid "Groups - Invite Member Email"
+msgstr "Grupper - Inviter medlem Email"
+
+#: includes/core/filters/um-groups-settings.php:181
+msgid "Groups - New post"
+msgstr ""
+
+#: includes/core/filters/um-groups-settings.php:193
+msgid "Groups - New comment"
+msgstr ""
+
+#: includes/core/filters/um-groups-single.php:109
+msgid "Discussions"
+msgstr "Diskussioner"
+
+#: includes/core/filters/um-groups-single.php:152
+msgid "Edit group settings"
+msgstr "Rediger gruppeindstillinger"
+
+#: includes/core/filters/um-groups-single.php:186
+#, php-format
+msgid "Join Requests <span class=\"count\">%s</span>"
+msgid_plural "Join Requests <span class=\"count\">%s</span>"
+msgstr[0] "Tilmeld dig anmodninger <span class=\"count\">%s</span>"
+msgstr[1] "Tilmeld dig anmodninger <span class=\"count\">%s</span>"
+
+#: includes/core/filters/um-groups-single.php:188
+msgid "Join Requests"
+msgstr "Tilmeld dig anmodninger"
+
+#: includes/core/filters/um-groups-single.php:226
+msgid "Send Invites"
+msgstr "Send invitationer"
+
+#: includes/core/filters/um-groups-single.php:267
+#, php-format
+msgid "Blocked <span class=\"count\">%s</span>"
+msgid_plural "Blocked <span class=\"count\">%s</span>"
+msgstr[0] "Blokeret <span class=\"count\">%s</span>"
+msgstr[1] "Blokeret <span class=\"count\">%s</span>"
+
+#: includes/core/filters/um-groups-single.php:398
+msgid "Details"
+msgstr "Detaljer"
+
+#: includes/core/filters/um-groups-single.php:404
+msgid "Avatar"
+msgstr "Avatar"
+
+#: includes/core/filters/um-groups-users-list.php:53
+msgid "Remove From Group"
+msgstr "Fjern fra gruppe"
+
+#: includes/core/filters/um-groups-users-list.php:104
+msgid "<span class=\"um-faicon-check\"></span> Invited"
+msgstr "<span class=\"um-faicon-check\"></span> Inviteret"
+
+#: templates/discussion/html/new-follow.php:12
+msgid "has just followed"
+msgstr "har lige fulgt"
+
+#: templates/discussion/html/new-gform-submission.php:12
+#: templates/discussion/html/new-gform.php:12
+msgid "just created a new "
+msgstr "har lige lavet en ny "
+
+#: templates/discussion/html/new-gform-submission.php:12
+msgid "Gravity Form Answer"
+msgstr "Gravity Form Svar"
+
+#: templates/discussion/html/new-gform.php:12
+msgid "Gravity Form"
+msgstr "Gravity Form"
+
+#: templates/discussion/html/new-group.php:12
+msgid "created the group"
+msgstr "oprettede gruppen"
+
+#: templates/discussion/html/new-post.php:12
+msgid "just created a new blog"
+msgstr "har lige lavet en ny blog"
+
+#: templates/discussion/html/new-post.php:12
+msgid "post"
+msgstr "indlæg"
+
+#: templates/discussion/html/new-product.php:12
+msgid "just added a new"
+msgstr "har lige tilføjet en ny"
+
+#: templates/discussion/html/new-product.php:12
+msgid "product"
+msgstr "produkt"
+
+#: templates/discussion/html/new-topic.php:12
+msgid "just created a new forum"
+msgstr "har lige oprettet et nyt forum"
+
+#: templates/discussion/html/new-topic.php:12
+msgid "topic"
+msgstr "emne"
+
+#. Plugin Name of the plugin/theme
+msgid "Ultimate Member - Groups"
+msgstr "Ultimate Member - Groups"
+
+#. Description of the plugin/theme
+msgid "Add a group system for your community users easily."
+msgstr "Tilføj et gruppesystem til dine brugere af Fællesskabet nemt."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://ultimatemember.com/"
+msgstr "http://ultimatemember.com/"
+
+#. Author of the plugin/theme
+msgid "Ultimate Member"
+msgstr "Ultimate Member"

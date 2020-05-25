@@ -1,0 +1,9 @@
+2020-04-15T14:07:50+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefrompng() in /var/www/multisite/wp-content/plugins/child-theme-generator/includes/class-child-theme-generator-functions.php:410
+Stack trace:
+#0 /var/www/multisite/wp-content/plugins/child-theme-generator/includes/class-child-theme-generator-functions.php(287): Ch_Th_Gen_Functions::create_screenshot_png(Array, Array)
+#1 /var/www/multisite/wp-content/plugins/child-theme-generator/admin/class-child-theme-generator-admin.php(197): Ch_Th_Gen_Functions::files_generation(Array, Array)
+#2 /var/www/multisite/wp-content/plugins/child-theme-generator/admin/partials/child-theme-generator-admin-display.php(61): Ch_Th_Gen_Admin->section_create()
+#3 /var/www/multisite/wp-content/plugins/child-theme-generator/admin/class-child-theme-generator-admin.php(133): include_once('/var/www/multis...')
+#4 /var/www/multisite/wp-includes/class-wp-hook.php(287): Ch_Th_Gen_Admin->display_options_page('')
+#5 /var/www/multisite/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(' in /var/www/multisite/wp-content/plugins/child-theme-generator/includes/class-child-theme-generator-functions.php on line 410
+

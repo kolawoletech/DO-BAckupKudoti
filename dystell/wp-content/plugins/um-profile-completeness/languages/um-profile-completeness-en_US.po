@@ -1,0 +1,314 @@
+# Copyright (C) 2020 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - Profile Completeness plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Profile Completeness 2.1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-profile-"
+"completeness\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-04-08T02:35:04+03:00\n"
+"PO-Revision-Date: 2020-04-08 02:57+0300\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Domain: um-profile-completeness\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#. Plugin Name of the plugin
+msgid "Ultimate Member - Profile Completeness"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://ultimatemember.com/extensions/profile-completeness"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add a robust profile completeness to your community."
+msgstr ""
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:12
+msgid "Enable profile completeness"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:13
+msgid "Turn on / off profile completeness features for this role"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:16
+#: includes/admin/templates/role/profilecompleteness.php:51
+#: includes/admin/templates/role/profilecompleteness.php:91
+#: includes/admin/templates/role/profilecompleteness.php:103
+#: includes/admin/templates/role/profilecompleteness.php:115
+msgid "No"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:17
+#: includes/admin/templates/role/profilecompleteness.php:52
+#: includes/admin/templates/role/profilecompleteness.php:92
+#: includes/admin/templates/role/profilecompleteness.php:104
+#: includes/admin/templates/role/profilecompleteness.php:116
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:23
+msgid "Percentage (%) required for completion"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:24
+msgid ""
+"Consider the profile complete when the user completes (%) by filling profile "
+"information."
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:37
+msgid "Upgrade to role automatically when profile is 100% complete"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:38
+#: includes/admin/templates/role/profilecompleteness.php:47
+msgid ""
+"Prevent user from browsing site If their profile completion is below the "
+"completion threshold set up above?"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:40
+msgid "Do not upgrade"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:46
+msgid "Require profile to be complete to browse the site?"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:58
+msgid "Allowed pages"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:59
+msgid ""
+"Comma separated list of pages (use page ID), that don't depends on \"Require "
+"profile to be complete to browse the site\" option."
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:66
+msgid "Redirect no-completed user"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:67
+msgid "If profile isn't completed redirect a user to this page"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:70
+msgid "User Profile"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:71
+msgid "Custom URL"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:78
+msgid "Redirect URL no-completed user"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:79
+msgid "If profile isn't completed redirect a user to this custom URL"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:86
+msgid "Require profile to be complete to browse user profiles?"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:87
+msgid ""
+"Prevent user from browsing other profiles If their profile completion is "
+"below the completion threshold set up above?"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:98
+msgid "Require profile to be complete to leave a comment?"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:99
+msgid ""
+"Prevent user from leaving comments If their profile completion is below the "
+"completion threshold set up above?"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:110
+msgid "Require profile to be complete to create new bbPress topics/replies?"
+msgstr ""
+
+#: includes/admin/templates/role/profilecompleteness.php:111
+msgid ""
+"Prevent user from adding participating in forum If their profile completion "
+"is below the completion threshold set up above?"
+msgstr ""
+
+#: includes/core/class-profile-completeness-admin.php:56
+msgid "Profile Completeness License Key"
+msgstr ""
+
+#: includes/core/class-profile-completeness-admin.php:76
+#: includes/core/class-profile-completeness-admin.php:95
+#: includes/core/class-profile-completeness-member-directory.php:105
+#: includes/core/um-profile-completeness-fields.php:13
+#: includes/core/um-profile-completeness-fields.php:16
+msgid "Profile Completeness"
+msgstr ""
+
+#: includes/core/class-profile-completeness-member-directory.php:69
+msgid "Only show members who have completed their profile"
+msgstr ""
+
+#: includes/core/class-profile-completeness-member-directory.php:75
+msgid "Required completeness (%)"
+msgstr ""
+
+#: includes/core/class-profile-completeness-member-directory.php:92
+msgid "Most completed"
+msgstr ""
+
+#: includes/core/class-profile-completeness-member-directory.php:93
+msgid "Least completed"
+msgstr ""
+
+#: includes/core/class-profile-completeness-member-directory.php:162
+#: includes/core/class-profile-completeness-member-directory.php:163
+msgid "Profile Completed"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:100
+msgid "Setup Fields"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:103
+msgid "Remaining progress:"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:125
+msgid "Edit allocated progress (%)"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:129
+msgid "Update"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:129
+msgid "Remove"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:135
+msgid "Add field"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:152
+msgid "How much (%) this field should attribute to profile completeness?"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:154
+msgid "Completeness value (%)"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:158
+#: templates/completeness-popup.php:31
+msgid "Save"
+msgstr ""
+
+#: includes/core/um-profile-completeness-fields.php:159
+msgid "Cancel"
+msgstr ""
+
+#: includes/core/um-profile-completeness-init.php:338
+#: includes/core/um-profile-completeness-init.php:342
+msgid "%s"
+msgstr ""
+
+#: includes/core/um-profile-completeness-init.php:345
+msgid "Custom Field"
+msgstr ""
+
+#: includes/core/um-profile-completeness-init.php:429
+msgid "Wrong User ID"
+msgstr ""
+
+#: includes/core/um-profile-completeness-profile.php:21
+msgid "You need to complete your profile before you can view that page."
+msgstr ""
+
+#: includes/core/um-profile-completeness-profile.php:24
+msgid "You need to complete your profile before you can leave comments."
+msgstr ""
+
+#: includes/core/um-profile-completeness-profile.php:27
+msgid "You need to complete your profile before you can participate in forums."
+msgstr ""
+
+#: includes/core/um-profile-completeness-widget.php:17
+msgid "Ultimate Member - Complete your Profile"
+msgstr ""
+
+#: includes/core/um-profile-completeness-widget.php:20
+msgid "Display the user profile completeness widget."
+msgstr ""
+
+#: includes/core/um-profile-completeness-widget.php:69
+msgid "Complete your Profile"
+msgstr ""
+
+#: includes/core/um-profile-completeness-widget.php:76
+#: includes/core/um-profile-completeness-widget.php:166
+msgid "Title:"
+msgstr ""
+
+#: includes/core/um-profile-completeness-widget.php:115
+msgid "Ultimate Member - Profile Progress Bar"
+msgstr ""
+
+#: includes/core/um-profile-completeness-widget.php:118
+msgid "Display the user profile progress bar."
+msgstr ""
+
+#: includes/core/um-profile-completeness-widget.php:159
+msgid "Profile Progress"
+msgstr ""
+
+#: templates/completeness-bar.php:12
+msgid "%s Complete"
+msgstr ""
+
+#: templates/completeness-popup.php:15 templates/js-widget.php:57
+msgid "Complete your profile"
+msgstr ""
+
+#: templates/completeness-popup.php:19
+msgid "Your profile is %s complete"
+msgstr ""
+
+#: templates/completeness-popup.php:32
+msgid "Do this later"
+msgstr ""
+
+#: templates/js-widget.php:21
+msgid "Profile:"
+msgstr ""
+
+#: um-profile-completeness.php:43 um-profile-completeness.php:59
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: assets/js/um-profile-completeness.js:196
+msgid "% Complete"
+msgstr ""

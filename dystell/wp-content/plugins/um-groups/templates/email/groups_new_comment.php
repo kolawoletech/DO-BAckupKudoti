@@ -1,0 +1,1 @@
+{author_name} added a new comment on group "{group_name}". <a href="{group_url}" style="color: #3ba1da;text-decoration: none;">{group_url}</a>

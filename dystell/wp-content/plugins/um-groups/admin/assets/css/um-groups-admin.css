@@ -1,0 +1,68 @@
+.um-groups-search-member{
+	height: 100px;
+}
+
+.um-groups-search-member input[name="um_groups_add_new_members"][type="text"]{
+	width:100%;
+	padding:10px;
+	line-height: 20px;
+	margin-top:30px
+}
+
+img.um-group-image{
+	float:left;
+	padding: 5px 10px;
+}
+
+.um-groups-found-user{
+}
+.um-groups-found-user img.avatar{
+	width: 100px;
+	height: 100px;
+	padding-right: 10px;
+	float: left;
+}
+
+.um-groups-found-user .display-name{
+	padding:5px 15px 5px 15px;
+	margin-left:20px;
+	display: block;
+	font-weight: bold;
+}
+.um-groups-found-user .has-joined-current, .um-groups-found-user .groups{
+	color: #a5a3a0;
+	font-size: 12px;
+}
+
+.um-groups-found-user .groups, 
+.um-groups-found-user .role, 
+.um-groups-found-user .has-joined-current, 
+.um-groups-found-user a.new-search{
+	display: block;
+}
+
+.um-groups-found-user a.new-search{
+	width:200px
+}
+
+.um-grous-found-user input[type="text"][name="add-member"]{
+	display:block;
+}
+
+#um_groups_manage_members_wrapper img.avatar{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	float: left;
+}
+
+#um_groups_manage_members_wrapper span.name{
+	padding:10px 20px;
+	display:block;
+	margin-left:30px
+}
+
+#um_groups_manage_members  tr td span.label{
+	text-align: center;
+	display:block;
+}
