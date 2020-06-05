@@ -3,7 +3,12 @@
 
 <script type="text/template" id="tmpl-um_groups_members">
 
-	<# _.each( data.users, function( user, key ) { #>
+	<# _.each( data.users, function( user, key ) {
+		if (user.current_user.data.user_nicename !==user['bbc-interested-in']){
+			return;
+		}
+		
+		 #>
 
 		<div class="um-groups-user-wrap" data-group-uid="{{{user.id}}}" data-group-id="{{{data.group_id}}}">
 
@@ -13,6 +18,7 @@
 						{{{user.avatar}}}
 					</a>
 				</div>
+			
 
 				<div class="um-group-buttons">
 

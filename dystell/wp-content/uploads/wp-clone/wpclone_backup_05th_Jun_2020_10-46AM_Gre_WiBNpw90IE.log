@@ -1,0 +1,18 @@
+Friday, 05-Jun-2020 10:46:38 - backup started
+Friday, 05-Jun-2020 10:46:38 - wp version     : 5.4
+Friday, 05-Jun-2020 10:46:38 - php version    : 7.2.24-0ubuntu0.18.04.6
+Friday, 05-Jun-2020 10:46:38 - mysql version  : 5.7.30
+Friday, 05-Jun-2020 10:46:38 - memory limit   : 1024M
+Friday, 05-Jun-2020 10:46:38 - execution time : 600
+Friday, 05-Jun-2020 10:46:38 - mysql timeout  : 
+Friday, 05-Jun-2020 10:46:38 - socket timeout : 600
+Friday, 05-Jun-2020 10:46:38 - files larger than 25 MB will be excluded from the backup
+Friday, 05-Jun-2020 10:46:38 - generating file list
+Friday, 05-Jun-2020 10:46:38 - number of files to include in the archive is 7352, and their uncompressed size is 117.81 MB
+Friday, 05-Jun-2020 10:46:38 - finished generating file list
+Friday, 05-Jun-2020 10:46:38 - database backup started
+Friday, 05-Jun-2020 10:46:38 - backing up tables with "wp_" prefix
+Friday, 05-Jun-2020 10:46:38 - number of tables to backup - 50
+Friday, 05-Jun-2020 10:46:39 - database backup finished
+Friday, 05-Jun-2020 10:46:39 - archiving files using ziparchive
+Friday, 05-Jun-2020 10:46:59 - backup finished

@@ -345,7 +345,14 @@ function um_submit_form_register( $args ) {
 
 	if ( empty( $user_email ) ) {
 		$site_url = str_replace('www.','',@$_SERVER['SERVER_NAME']);
-		$user_email = 'nobody' . $unique_userID . '@' . $site_url;
+		
+		$request_time= $_SERVER['REQUEST_TIME'];
+		
+
+		
+		$user_email = 'nobody' . $unique_userID .$request_time. '@' . $site_url;
+		write_log($user_email);
+		//$user_email = 'nobody' . $unique_userID . '@' . $site_url;
 		/**
 		 * UM hook
 		 *

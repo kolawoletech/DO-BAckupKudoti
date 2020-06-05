@@ -94,25 +94,7 @@ function um_groups_query_vars_filter( $vars ) {
 add_filter( 'query_vars', 'um_groups_query_vars_filter', 10, 1 );
 
 
-/**
- * Add Discussion tab
- *
- * @param $default_tabs
- * @param $group_id
- * @param $param_tab
- *
- * @return mixed
- */
-function um_groups_tab_discussion( $default_tabs, $group_id, $param_tab ) {
-	$default_tabs['discussion'] = array(
-		'slug' => 'discussion',
-		'name' => __('Discussions','um-groups'),
-		'default' => true,
-	);
 
-	return $default_tabs;
-}
-add_filter( 'um_groups_tabs','um_groups_tab_discussion', 10, 3 );
 
 
 /**
@@ -128,6 +110,7 @@ function um_groups_tab_member( $default_tabs, $group_id, $param_tab ) {
 	$default_tabs['members'] = array(
 		'slug' => 'members',
 		'name' => __('Members','um-groups'),
+		'default' => true,
 	);
 
 	return $default_tabs;
@@ -135,6 +118,25 @@ function um_groups_tab_member( $default_tabs, $group_id, $param_tab ) {
 add_filter( 'um_groups_tabs','um_groups_tab_member', 10, 3 );
 
 
+/**
+ * Add Discussion tab
+ *
+ * @param $default_tabs
+ * @param $group_id
+ * @param $param_tab
+ *
+ * @return mixed
+ */
+function um_groups_tab_discussion( $default_tabs, $group_id, $param_tab ) {
+	$default_tabs['discussion'] = array(
+		'slug' => 'discussion',
+		'name' => __('Discussions','um-groups'),
+		
+	);
+
+	return $default_tabs;
+}
+add_filter( 'um_groups_tabs','um_groups_tab_discussion', 10, 3 );
 /**
  * Add Settings tab
  *
@@ -223,7 +225,7 @@ function um_groups_tab_send_invites( $default_tabs, $group_id, $param_tab ){
 			case 'private':
 			case 'hidden':
 			case 'public':
-					$default_tabs['invites']['name'] = __( 'Send Invites', 'um-groups' );
+					$default_tabs['invites']['name'] = __( 'Interested Members', 'um-groups' );
 			break;
 
 		}

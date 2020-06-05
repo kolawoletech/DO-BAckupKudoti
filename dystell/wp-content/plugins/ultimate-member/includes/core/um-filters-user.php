@@ -12,6 +12,10 @@
 function um_admin_user_actions_hook( $actions, $user_id ) {
 	um_fetch_user( $user_id );
 
+	
+	$eru =um_fetch_user( um_profile_id() );
+	write_log("Eru Olorun Ba mi");
+	write_log($eru);
 	//if ( UM()->roles()->um_current_user_can( 'edit', $user_id ) ) {
 	if ( current_user_can( 'manage_options' ) ) {
 

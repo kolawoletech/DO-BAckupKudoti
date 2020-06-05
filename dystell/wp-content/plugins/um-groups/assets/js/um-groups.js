@@ -1851,6 +1851,8 @@ function um_ajax_get_group_invites( directory ) {
 	wp.ajax.send( 'um_groups_get_invites', {
 		data: request,
 		success: function( data ) {
+            console.log("Users ", data)
+
 			if ( data.users ) {
 				var template = wp.template( 'um_groups_members' );
 				var template_content = template({

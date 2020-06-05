@@ -2171,6 +2171,16 @@ if ( ! class_exists( 'um\core\Member_Directory' ) ) {
 
 			um_fetch_user( $user_id );
 
+			
+
+			$mike = get_metadata('user', $user_id, 'bbc-interested-in' );
+			$mike2= array(get_metadata('user', $user_id, 'bbc-interested-in' ));
+			write_log("um uers");
+			write_log($mike);
+			write_log("um uers 22");
+			write_log($mike2);
+			write_log(um_fetch_user( $user_id ));
+
 			$dropdown_actions = $this->build_user_actions_list( $user_id );
 
 			$actions = array();
@@ -2202,6 +2212,8 @@ if ( ! class_exists( 'um\core\Member_Directory' ) ) {
 				'dropdown_actions'      => $dropdown_actions,
 				'hook_just_after_name'  => preg_replace( '/^\s+/im', '', $hook_just_after_name ),
 				'hook_after_user_name'  => preg_replace( '/^\s+/im', '', $hook_after_user_name ),
+				'bbc-interested-in'          => $mike[0],
+				'current_user' => wp_get_current_user()
 			);
 
 			if ( ! empty( $directory_data['show_tagline'] ) ) {

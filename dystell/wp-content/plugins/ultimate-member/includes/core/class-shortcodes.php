@@ -651,12 +651,12 @@ if ( ! class_exists( 'um\core\Shortcodes' ) ) {
 			extract( $args, EXTR_SKIP );
 
 			//not display on admin preview
-			if ( empty( $_POST['act_id'] ) || $_POST['act_id'] != 'um_admin_preview_form' ) {
+/* 			if ( empty( $_POST['act_id'] ) || $_POST['act_id'] != 'um_admin_preview_form' ) {
 				if ( 'register' == $mode && is_user_logged_in() ) {
 					ob_get_clean();
 					return __( 'You are already registered', 'ultimate-member' );
 				}
-			}
+			} */
 
 			// for profiles only
 			if ( $mode == 'profile' && um_profile_id() ) {

@@ -1,0 +1,20 @@
+2020-06-04T09:34:07+00:00 CRITICAL require_once(): Failed opening required '/var/www/dystell/wp-includes/twilio-php-master/src/Twilio/autoload.php' (include_path='.:/usr/share/php') in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 11
+
+2020-06-04T09:34:29+00:00 CRITICAL require_once(): Failed opening required '/var/www/dystell/wp-includes/twilio-php-master/src/Twilio/autoload.php' (include_path='.:/usr/share/php') in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 11
+
+2020-06-04T09:34:44+00:00 CRITICAL require_once(): Failed opening required '/var/www/dystell/wp-includes/twilio-php-master/src/Twilio/autoload.php' (include_path='.:/usr/share/php') in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 11
+
+2020-06-04T09:34:56+00:00 CRITICAL require_once(): Failed opening required '/var/www/dystell/wp-includes/twilio-php-master/src/Twilio/autoload.php' (include_path='.:/usr/share/php') in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 11
+
+2020-06-04T09:34:57+00:00 CRITICAL require_once(): Failed opening required '/var/www/dystell/wp-includes/twilio-php-master/src/Twilio/autoload.php' (include_path='.:/usr/share/php') in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 11
+
+2020-06-04T09:34:59+00:00 CRITICAL require_once(): Failed opening required '/var/www/dystell/wp-includes/twilio-php-master/src/Twilio/autoload.php' (include_path='.:/usr/share/php') in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 11
+
+2020-06-04T09:35:51+00:00 CRITICAL require_once(): Failed opening required '/var/www/dystell/wp-includes/twilio-php-master/src/Twilio/autoload.php' (include_path='.:/usr/share/php') in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 11
+
+2020-06-04T09:36:20+00:00 CRITICAL require_once(): Failed opening required '/var/www/dystell/wp-includes/twilio-php-master/src/Twilio/autoload.php' (include_path='.:/usr/share/php') in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 11
+
+2020-06-04T09:56:07+00:00 CRITICAL Cannot redeclare get_users() (previously declared in /var/www/dystell/wp-includes/user.php:574) in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 158
+
+2020-06-04T09:56:55+00:00 CRITICAL Cannot redeclare get_users() (previously declared in /var/www/dystell/wp-includes/user.php:574) in /var/www/dystell/wp-content/themes/storefront-child/functions.php on line 158
+
